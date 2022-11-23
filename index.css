@@ -12,5 +12,13 @@
 }
 
 .navbar {
-	background-color: #2D3240;
+		background-image: linear-gradient(blue,black,black,blue);
+}
+
+#bckground {
+	opacity: .4;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center fixed;
+	background-attachment: fixed;
 }
