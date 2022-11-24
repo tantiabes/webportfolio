@@ -11,12 +11,19 @@
 	font-family: 'Fredoka One', cursive;
 }
 
+
+
 .navbar {
 		background-image: linear-gradient(blue,black,black,blue);
 }
 
 #contact_form {
-	background-image: linear-gradient(blue,black,black,blue);
+	background-image: linear-gradient(to right,blue,black);
+	font-family: 'Fredoka One', cursive;
+}
+
+#projects {
+	background-image: linear-gradient(to right, black,blue);
 	font-family: 'Fredoka One', cursive;
 }
 
