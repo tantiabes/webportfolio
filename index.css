@@ -14,11 +14,11 @@
 
 
 .navbar {
-		background-image: linear-gradient(blue,black,black,blue);
+		background-image: linear-gradient(to bottom right,white,white);
 }
 
 #contact_form {
-	background-image: linear-gradient(to right,blue,black);
+	background-image: linear-gradient(to bottom right,blue,black);
 	font-family: 'Fredoka One', cursive;
 }
 
@@ -58,10 +58,13 @@ section {
 	font-family: 'Syne Mono', monospace;
 }
 
-.navbar_bottom {
-  background-image: linear-gradient(black,blue);
+#bottom_nav {
+  background-image: linear-gradient(white,white);
   overflow: hidden;
   position: fixed;
   bottom: 0;
   width: 100%;
+  font-family: 'Lobster Two', cursive;
+  justify-content: center;
 }
+
