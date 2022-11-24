@@ -7,7 +7,7 @@
 }
 /*End of CSS Reset*/
 
-.card-header {
+#scroll-nav {
 	font-family: 'Fredoka One', cursive;
 }
 
@@ -15,10 +15,37 @@
 		background-image: linear-gradient(blue,black,black,blue);
 }
 
-#bckground {
-	opacity: .4;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center fixed;
+#contact_form {
+	background-image: linear-gradient(blue,black,black,blue);
+}
+
+body {
+		background-image: linear-gradient(black,blue,black);
+}
+
+#bg-image {
+	background-image: url(./images/sea-1.jpg);
+	min-height: 100vh;
+	background-repeat: round;
+	background-position: center center;
+	background-size: 100%;
 	background-attachment: fixed;
+	position: relative;
+	z-index: 0;
+	margin-top: 5%;
+}
+
+.front-bg {
+	background: rgba(252, 252, 252, .5);
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	background-attachment: fixed;
+	position: relative;
+	z-index: 0;
+}
+
+section {
+	font-family: 'Syne Mono', monospace;
 }
