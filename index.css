@@ -17,6 +17,7 @@
 
 #contact_form {
 	background-image: linear-gradient(blue,black,black,blue);
+	font-family: 'Fredoka One', cursive;
 }
 
 body {
@@ -48,4 +49,12 @@ body {
 
 section {
 	font-family: 'Syne Mono', monospace;
+}
+
+.navbar_bottom {
+  background-image: linear-gradient(black,blue);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
